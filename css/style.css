@@ -4,42 +4,63 @@ a {
 ul {
   list-style-type: none;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 
 button {
   cursor: pointer;
 }
 /*#header  */
 
+/* Хедер */
 .head.page {
-  border-bottom: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower); /* Замініть на реальне значення змінної */
   width: 1440px;
   height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Додає відступи з боків */
 }
 
+/* Навігація */
 .nav.page {
+  display: flex;
+  align-items: center;
 }
+
+/* Логотип */
 .logoup {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--navy-blue);
-}
-.std {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #393e96;
+  color: #4d5ae5; /* Відповідає критеріям */
+  text-decoration: none; /* Вимкнено підкреслення */
 }
+
+.logoup .std {
+  color: #2e2f42; /* Колір для span у логотипі */
+}
+
+/* Список навігації */
 .ul.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 40px; /* Відстань між пунктами меню */
 }
+
 .list.one {
+  list-style: none;
 }
+
 .list.a {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -47,12 +68,28 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none; /* Вимкнено підкреслення */
+  transition: color 0.3s ease; /* Плавна зміна кольору */
 }
 
 .list.a:hover,
 .list.a:focus {
   color: #404bbf;
 }
+
+/* Address та контакти */
+address {
+  font-style: normal; /* Вимкнено курсив */
+}
+
+address ul {
+  display: flex;
+  gap: 20px; /* Відстань між контактами */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .contacts {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -60,6 +97,13 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none; /* Вимкнено підкреслення */
+  transition: color 0.3s ease;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
 }
 
 /*#hero    */
