@@ -1,9 +1,12 @@
+/* Загальні стилі */
 a {
   text-decoration: none;
 }
+
 ul {
   list-style-type: none;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -14,7 +17,7 @@ button {
   cursor: pointer;
 }
 
-/*#header  */
+/* #header  */
 
 /* Хедер */
 .head.page {
@@ -24,7 +27,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px; /* Додає відступи з боків */
+  padding: 0 20px;
 }
 
 /* Навігація */
@@ -34,58 +37,57 @@ button {
 }
 
 /* Логотип */
-.logo.page {
+.logoup {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5; /* Відповідає критеріям */
-  text-decoration: none; /* Вимкнено підкреслення */
+  color: #4d5ae5;
 }
 
-.logo.page .std {
-  color: #2e2f42; /* Колір для span у логотипі */
+.logoup .std {
+  color: #2e2f42;
 }
 
 /* Список навігації */
-.nav.list {
+.ul.list {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 40px; /* Відстань між пунктами меню */
+  gap: 40px;
 }
 
-.nav.list-item {
+.list.one {
   list-style: none;
 }
 
-.nav.list-item a {
+.list.a {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none; /* Вимкнено підкреслення */
-  transition: color 0.3s ease; /* Плавна зміна кольору */
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.nav.list-item a:hover,
-.nav.list-item a:focus {
+.list.a:hover,
+.list.a:focus {
   color: #404bbf;
 }
 
 /* Address та контакти */
 address {
-  font-style: normal; /* Вимкнено курсив */
+  font-style: normal;
 }
 
 address ul {
   display: flex;
-  gap: 20px; /* Відстань між контактами */
+  gap: 20px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -98,7 +100,7 @@ address ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none; /* Вимкнено підкреслення */
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
@@ -107,11 +109,11 @@ address ul {
   color: #404bbf;
 }
 
-/*#hero    */
-
+/* #hero */
 .hero {
   background-color: #2e2f42;
 }
+
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -121,7 +123,8 @@ address ul {
   text-align: center;
   color: #fff;
 }
-.hero-button {
+
+.buthero {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -129,12 +132,14 @@ address ul {
   color: #fff;
   background-color: #4d5ae5;
 }
-.hero-button:hover,
-.hero-button:focus {
+
+.buthero:hover,
+.buthero:focus {
   background-color: #404bbf;
 }
 
-.section-title {
+/* Key Features */
+.s4 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -143,7 +148,7 @@ address ul {
   color: #2e2f42;
 }
 
-.section-text {
+.s3 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -152,11 +157,12 @@ address ul {
   color: #434455;
 }
 
-.team.section {
+/* Team Section */
+.team1 {
   background-color: #f4f4fd;
 }
 
-.team-title {
+.team2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -166,27 +172,38 @@ address ul {
   color: #2e2f42;
 }
 
-.team-member {
+.team3 {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team4 {
+  text-align: center;
+}
+
+.team5 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
-.team-description {
+.team6 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 
-.work.section {
+/* Portfolio Section */
+.worka {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -196,7 +213,30 @@ address ul {
   color: #2e2f42;
 }
 
-.work-item {
+.work1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.work2 {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work3 {
+  width: 360px;
+  text-align: center;
+}
+
+.work4 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -205,7 +245,7 @@ address ul {
   color: #2e2f42;
 }
 
-.work-description {
+.work5 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -214,11 +254,14 @@ address ul {
   color: #434455;
 }
 
-.footer.section {
+/* Footer */
+.footer {
   background-color: #2e2f42;
+  text-align: center;
+  padding: 20px;
 }
 
-.footer-title {
+.footer1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -228,7 +271,7 @@ address ul {
   color: #f4f4fd;
 }
 
-.footer-text {
+.footertext {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
