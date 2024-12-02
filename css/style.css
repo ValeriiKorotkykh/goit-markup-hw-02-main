@@ -17,26 +17,23 @@ button {
   cursor: pointer;
 }
 
-/* #header  */
-
-/* Хедер */
+/* #header - шапка з лого і списком інф. */
 .head.page {
-  border-bottom: 1px solid var(--cornflower); /* Замініть на реальне значення змінної */
-  width: 1440px;
+  border-bottom: 1px solid #4d5ae5; /* Лінія внизу шапки */
+  width: 100%;
   height: 72px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
-/* Навігація */
 .nav.page {
   display: flex;
   align-items: center;
 }
 
-/* Логотип */
 .logoup {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -51,13 +48,11 @@ button {
   color: #2e2f42;
 }
 
-/* Список навігації */
 .ul.list {
   display: flex;
-  list-style: none;
+  gap: 40px;
   padding: 0;
   margin: 0;
-  gap: 40px;
 }
 
 .list.one {
@@ -80,7 +75,6 @@ button {
   color: #404bbf;
 }
 
-/* Address та контакти */
 address {
   font-style: normal;
 }
@@ -112,6 +106,7 @@ address ul {
 /* #hero */
 .hero {
   background-color: #2e2f42;
+  padding: 60px 20px;
 }
 
 .hero-title {
@@ -131,6 +126,11 @@ address ul {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .buthero:hover,
@@ -139,6 +139,19 @@ address ul {
 }
 
 /* Key Features */
+ul.ul4 {
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.li3 {
+  width: 24%;
+  text-align: center;
+}
+
 .s4 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -160,6 +173,7 @@ address ul {
 /* Team Section */
 .team1 {
   background-color: #f4f4fd;
+  padding: 60px 20px;
 }
 
 .team2 {
@@ -178,6 +192,7 @@ address ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  justify-content: center;
 }
 
 .team4 {
@@ -202,15 +217,13 @@ address ul {
   color: #434455;
 }
 
+.team4 img {
+  border-radius: 50%;
+}
+
 /* Portfolio Section */
 .worka {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
+  padding: 60px 20px;
 }
 
 .work1 {
@@ -229,6 +242,7 @@ address ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  justify-content: center;
 }
 
 .work3 {
@@ -252,6 +266,12 @@ address ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.work3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* Footer */
@@ -278,4 +298,27 @@ address ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .team3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ul.list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ul4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work2 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
