@@ -1,279 +1,86 @@
 /* Загальні стилі */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
-}
-
-body {
-  font-family: "Roboto", sans-serif; /* шрифт на сайті */
-  color: #434455; /* колір тексту на сайті */
-  background-color: #ffffff; /* фон сторінки */
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-button {
-  cursor: pointer;
-}
 /* Логотип */
 .logoup {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5; /* колір логотипу */
+  color: #4d5ae5;
 }
 
 .logoup span {
-  color: #2e2f42; /* колір для тексту в span */
+  color: #2e2f42;
 }
 
 /* Навігація */
-.nav.page {
-  margin: 0;
+.ul-list {
+  display: flex;
+  gap: 40px;
 }
 
-.ul.list {
-  list-style: none;
-}
-
-.list.one {
-  display: inline-block;
-  margin-right: 40px;
-}
-
-/* Посилання в навігації */
-.list.a {
+.list-a {
+  color: #2e2f42;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42; /* колір тексту */
-  text-decoration: none;
 }
 
-.list.a:hover,
-.list.a:focus {
-  color: #404bbf; /* зміна кольору при ховері або фокусі */
+.list-a:hover {
+  color: #404bbf;
 }
 
-/* Адреса */
-address {
-  font-style: normal; /* прибираємо курсив */
-}
-
-address ul {
-  list-style: none; /* без маркерів списку */
-  padding: 0; /* відступи */
-  margin: 0; /* відступи */
-}
-
-/* Контактні посилання в address */
-.contacts {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455; /* колір тексту */
-  text-decoration: none; /* без підкреслення */
-}
-
-.contacts:hover,
-.contacts:focus {
-  color: #404bbf; /* зміна кольору при ховері або фокусі */
-}
-
-/* Контактні посилання для першого і другого пункту списку */
-.address-list .contacts {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455; /* колір тексту */
-  text-decoration: none;
-}
-
-.address-list .contacts:hover,
-.address-list .contacts:focus {
-  color: #404bbf; /* зміна кольору при ховері або фокусі */
-}
-
-/* Класи для списку контактів */
-.address-list {
-  list-style: none; /* без маркерів списку */
-  padding: 0; /* без відступів */
-  margin: 0; /* без маркерів і відступів */
-}
-
-.address-list li {
-  margin-bottom: 10px; /* відстань між елементами списку */
-}
-
-/* #hero */
+/* Hero Section */
 .hero {
   background-color: #2e2f42;
+  text-align: center;
+  padding: 100px 20px;
 }
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 
 .buthero {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
   background-color: #4d5ae5;
+  color: #fff;
   border: none;
+  padding: 16px 32px;
   cursor: pointer;
 }
 
-.buthero:hover,
-.buthero:focus {
-  background-color: #404bbf;
-}
-
 /* Key Features */
-ul.ul4 {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .li3 {
-  display: inline-block;
-  margin-right: 20px;
   text-align: center;
-}
-
-.s4 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.s3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
 }
 
 /* Team Section */
 .team1 {
   background-color: #f4f4fd;
-}
-
-.team2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
+  padding: 60px 20px;
 }
 
-.team3 {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.team4 {
-  display: inline-block;
-  margin-right: 20px;
-  text-align: center;
-}
-
-.team5 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.team6 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.team4 img {
-  border-radius: 50%;
-}
-
-/* Portfolio Section */
-.worka {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.work1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-
-.work2 {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.work3 {
-  display: inline-block;
-  margin-right: 20px;
-  text-align: center;
-}
-
-.work4 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.work5 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
+/* Portfolio */
 .work3 img {
-  width: 100%;
-  height: auto;
   border-radius: 8px;
 }
 
@@ -281,51 +88,9 @@ ul.ul4 {
 .footer {
   background-color: #2e2f42;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .footer1 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
-}
-
-.footertext {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
-/* Адаптивність */
-@media (max-width: 768px) {
-  .team3 {
-    text-align: center;
-  }
-
-  .ul.list {
-    text-align: center;
-  }
-
-  .ul4 {
-    text-align: center;
-  }
-
-  .work2 {
-    text-align: center;
-  }
-
-  .li3,
-  .team4,
-  .work3 {
-    display: block;
-    margin-bottom: 20px;
-  }
 }
