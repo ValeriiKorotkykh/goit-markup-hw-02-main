@@ -12,11 +12,6 @@ body {
   color: #434455;
   background-color: #ffffff;
   margin: 0;
-  padding: 0;
-}
-
-button {
-  cursor: pointer;
 }
 
 /* Логотип */
@@ -57,11 +52,6 @@ button {
   list-style: none;
 }
 
-.list.one {
-  display: inline-block;
-  margin-right: 40px;
-}
-
 /* Посилання в навігації */
 .list.a {
   font-weight: 500;
@@ -84,7 +74,6 @@ address {
 
 address ul {
   list-style: none;
-  padding: 0;
   margin: 0;
 }
 
@@ -101,31 +90,6 @@ address ul {
 .contacts:focus {
   color: #404bbf;
   text-decoration: underline;
-}
-
-/* Контактні посилання для першого і другого пункту списку */
-.address-list .contacts {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-
-.address-list .contacts:hover,
-.address-list .contacts:focus {
-  color: #404bbf;
-}
-
-/* Класи для списку контактів */
-.address-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.address-list li {
-  margin-bottom: 10px;
 }
 
 /* #hero */
@@ -146,34 +110,21 @@ address ul {
 .buthero {
   font-weight: 600;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
   border: none;
   cursor: pointer;
-  padding: 10px 20px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
 }
 
 .buthero:hover,
 .buthero:focus {
   background-color: #404bbf;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Key Features */
 ul.ul4 {
   list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.li3 {
-  display: inline-block;
-  margin-right: 20px;
-  text-align: center;
 }
 
 .s4 {
@@ -211,14 +162,7 @@ ul.ul4 {
 
 .team3 {
   list-style: none;
-  padding: 0;
   margin: 0;
-  text-align: center;
-}
-
-.team4 {
-  display: inline-block;
-  margin-right: 20px;
   text-align: center;
 }
 
@@ -240,10 +184,6 @@ ul.ul4 {
   color: #434455;
 }
 
-.team4 img {
-  border-radius: 0; /* прибрали круглі рамки */
-}
-
 /* Portfolio Section */
 .worka {
   padding-top: 60px;
@@ -262,14 +202,7 @@ ul.ul4 {
 
 .work2 {
   list-style: none;
-  padding: 0;
   margin: 0;
-  text-align: center;
-}
-
-.work3 {
-  display: inline-block;
-  margin-right: 20px;
   text-align: center;
 }
 
@@ -289,12 +222,6 @@ ul.ul4 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.work3 img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
 }
 
 /* Footer */
@@ -334,18 +261,7 @@ ul.ul4 {
     text-align: center;
   }
 
-  .ul4 {
-    text-align: center;
-  }
-
   .work2 {
     text-align: center;
-  }
-
-  .li3,
-  .team4,
-  .work3 {
-    display: block;
-    margin-bottom: 20px;
   }
 }
