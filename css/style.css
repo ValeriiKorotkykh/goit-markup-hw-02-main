@@ -24,17 +24,17 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
-.logoup span {
+/* Лого */
+.logo-up span {
   color: #2e2f42;
 }
 
 /* Навігація */
-.nav.page {
+.nav-page {
   margin: 0;
 }
 
-.nav.page a {
+.nav-page a {
   font-size: 18px;
   font-weight: 600;
   color: #2e2f42;
@@ -42,18 +42,18 @@ body {
   text-decoration: none;
 }
 
-.nav.page a:hover,
-.nav.page a:focus {
+.nav-page a:hover,
+.nav-page a:focus {
   color: #404bbf;
   text-decoration: underline;
 }
 
-.ul.list {
+.ul-list {
   list-style: none;
 }
 
 /* Посилання в навігації */
-.list.a {
+.link-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -62,8 +62,8 @@ body {
   text-decoration: none;
 }
 
-.list.a:hover,
-.list.a:focus {
+.link-item:hover,
+.link-item:focus {
   color: #404bbf;
 }
 
